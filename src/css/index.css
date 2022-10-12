@@ -6,3 +6,39 @@
     color: var(--brand-color);
     font-size: 30px;
 }
+
+.main--titles {
+    margin: 20px;
+    font-weight: 700;
+    width: 40%;
+}
+
+h1.titles--title {
+    margin-bottom: 15px;
+    font-size: 34px;
+}
+
+.main--button {
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main--button__white {
+    border: 1px solid gray;
+    background: white;
+    width: 300px;
+}
+
+.main--button__blue {
+    color: white;
+    background-color: var(--brand-color);
+    width: 300px;
+}
