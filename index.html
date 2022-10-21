@@ -13,33 +13,43 @@
     <link rel="stylesheet" href="./src/css/index.css">
 </head>
 <body>
-   <header class="header">
-    <span class="header--icon"><i class="fa-brands fa-twitter"></i></span>
-   </header> 
-   <main class="main">
-     <div> 
-      <div class="main--titles">
-        <h1 class="titles--title">Lo que está pasando ahora</h1>
-        <h2 class="titles--title">Únete a Twitter hoy mismo.</h2>
-      </div>
-     <div class="main--buttons">
-        <button class="main--button main--button__white">
-            <span><i class="fa-brands fa-google"></i></span> Registrarse con google
-        </button>
-        <button class="main--button  main--button__white"><Span><i class="fa-brands fa-apple"></i></Span> Registrarse con apple
-        </button>
-        <div class="main--division"><span>o</span></div>
-        <button class="main--button  main--button__blue">Registrarse con el número de télefono</button>
-        <p class="main--text">Al registrarte, aceptas los <a class="text--link" href="">Términos de servicio</a> y la <a class="text--link" href="">Política de privacidad</a>, incluida la política de <a class="text--link" href="">Uso de Cookies.</a></p>
+  <div class="helper">
+    <div class="helper--content">
+      <header class="header">
+       <span class="header--icon"><i class="fa-brands fa-twitter"></i></span>
+      </header> 
+      <main class="main">
+        <div class="main--hero"> 
+         <div class="main--titles">
+           <h1 class="titles--title">Lo que está pasando ahora</h1>
+         </div>
+         <div class="main--buttons">
+           <h2 class="titles--title">Únete a Twitter hoy mismo.</h2>
+           <button class="main--button main--button__white">
+               <span><i class="fa-brands fa-google"></i></span>
+               <a href="/src/pages/login.html">
+                 Registrarse con google
+               </a>
+           </button>
+           <button class="main--button  main--button__white"><Span><i class="fa-brands fa-apple"></i></Span> Registrarse con apple
+           </button>
+           <div class="main--division">
+             <div></div>
+             <span>o</span>
+             <div></div>
+           </div>
+           <button class="main--button  main--button__blue">Registrarse con el número de télefono</button>
+           <p class="main--text">Al registrarte, aceptas los <a class="text--link" href="">Términos de servicio</a> y la <a class="text--link" href="">Política de privacidad</a>, incluida la política de <a class="text--link" href="">Uso de Cookies.  
+           </a>
+           </p>
+           <h3>¿Ya tienes cuenta?</h3>
+           <button class="main--button  main--button__white main--button__white-blue">Iniciar Sesión</button>
+       </div>
+     </div>
     </div>
-
-    <div>
-        <h3>¿Ya tienes cuenta?</h3>
-        <button class="main--button  main--button__white main--button__white-blue">Iniciar Sesión</button>
-    </div>
-  </div>
-  <div class="main--background">
-    <span class="header--icon header--icon__white"><i class="fa-brands fa-twitter"></i></span>
+    <div class="main--background">
+      <span class="header--icon header--icon__white"><i class="fa-brands fa-twitter"></i></span>
+     </div>
   </div>
    </main>
    <footer class="footer">
